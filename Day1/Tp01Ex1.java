@@ -1,4 +1,4 @@
-package cherubinpa.Day1;
+
 import java.util.Scanner;
 
 

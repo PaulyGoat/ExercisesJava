@@ -1,4 +1,4 @@
-package cherubinpa.Day2;
+
 import java.util.Scanner;
 public class Day2Ex10 {
     public static void main(String[] args){

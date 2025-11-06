@@ -1,4 +1,4 @@
-package cherubinpa.Day2;
+
 import java.util.Scanner;
 
 public class Day2Ex7 {

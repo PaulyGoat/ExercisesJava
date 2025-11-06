@@ -1,4 +1,4 @@
-package cherubinpa.Day2;
+
 
 public class Day2Ex5 {
     public static void main(String[] args){
