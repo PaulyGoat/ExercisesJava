@@ -23,7 +23,7 @@ public class Day2Ex8 {
         }
         else
         {
-            motsSaisis.add(sMot);
+            motsSaisis.add(sMot);//Rajouter le mot dans la liste
         }
         
     } while (bContinuer == true);
@@ -31,11 +31,11 @@ public class Day2Ex8 {
 
     // Tri alphabétique sans tenir compte des majuscules
        // Collections.sort(motsSaisis, String.CASE_INSENSITIVE_ORDER);
-    Collections.sort(motsSaisis, String.CASE_INSENSITIVE_ORDER);
+    Collections.sort(motsSaisis, String.CASE_INSENSITIVE_ORDER);//sert a trier la liste
 
     // Affichage du premier et du dernier mot
-    System.out.println("Le premier mot "+motsSaisis.get(0));
-    System.out.println("Le dernier mot "+motsSaisis.get(motsSaisis.size()-1));
+    System.out.println("Le premier mot "+motsSaisis.get(0));//get sert a recuperer un element dune liste
+    System.out.println("Le dernier mot "+motsSaisis.get(motsSaisis.size()-1));//-1 donne le dernier
 
      lire.close();
 }

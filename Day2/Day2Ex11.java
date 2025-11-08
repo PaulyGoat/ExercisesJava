@@ -7,6 +7,7 @@ public class Day2Ex11 {
         int iNb1=scan.nextInt();
         factorielle(iNb1);
         System.out.println("La factorielle de "+iNb1+"est "+factorielle(iNb1));
+        scan.close();
     }
 
     public static int factorielle(int iNb1) {
